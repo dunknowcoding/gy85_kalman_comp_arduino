@@ -84,7 +84,7 @@ void setup() {
     gyro.init();
     Serial.println("Gyroscope ITG3200 found!");
     Serial.print("Gyro performs zeroCalibrating...");
-    gyro.zeroCalibrate(200,10);//sample 200 times to calibrate and it will take 200*10ms
+    gyro.zeroCalibrate(200, 10);//sample 200 times to calibrate and it will take 200*10ms
     Serial.println("Done!");
     delay(100);
 }

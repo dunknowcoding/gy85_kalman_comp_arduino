@@ -21,8 +21,8 @@ For the short video produced by @NiusRobotLab
 // Serial display settings, at lease printing one item
 // #define DISP_RAW_ACC // print accelerometer raw data
 // #define DISP_RAW_GYRO // print gyroscope raw data
-#define DISP_ROLL // Roll - measurements and filtering results
-#define DISP_PITCH // Pitch - measurements and filtering results
-// #define DISP_YAW // Yaw - measurements and filtering results
+// #define DISP_ROLL // Roll - measurements and filtering results
+// #define DISP_PITCH // Pitch - measurements and filtering results
+#define DISP_YAW // Yaw - measurements and filtering results
 // #define DISP_GYRO_ANGLE // Display Gyro incrementals, defined by <UNBIASED_GYRO_RATE>
 // #define DISP_TEMP // Gyro temperature display
