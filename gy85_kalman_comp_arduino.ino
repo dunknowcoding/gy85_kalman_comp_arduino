@@ -35,8 +35,6 @@ For the short video produced by @NiusRobotLab
 #include <Kalman.h>
 #include "config.h"
 
-#define RESTRICT_PITCH // Comment out to restrict roll to ±90deg instead - please read: http://www.freescale.com/files/sensors/doc/app_note/AN3461.pdf
-
 Adafruit_HMC5883_Unified mag = Adafruit_HMC5883_Unified(10001); // Assign a unique ID to this sensor at the same time
 Adafruit_ADXL345_Unified accel = Adafruit_ADXL345_Unified(10002); // Assign a unique ID to this sensor at the same time
 ITG3200 gyro;
